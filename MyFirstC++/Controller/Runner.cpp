@@ -7,8 +7,11 @@
 //
 
 #include "Controller.hpp"
+#include "Timer.hpp"
 
 int main() {
+    Timer time;
+    time.displayInformation();
     Controller app;
     app.start();
 }
