@@ -8,10 +8,13 @@
 
 #include "Controller.hpp"
 #include "Timer.hpp"
+#include "Array.hpp"
 
 int main() {
     Timer time;
     time.displayInformation();
+    Array array;
+    array.test();
     Controller app;
     app.start();
 }
