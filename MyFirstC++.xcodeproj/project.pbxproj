@@ -10,6 +10,7 @@
 		530A3E382017C5A7004D799F /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 530A3E372017C5A7004D799F /* Runner.cpp */; };
 		530A3E3B2017C6D4004D799F /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 530A3E392017C6D4004D799F /* Controller.cpp */; };
 		53193BD5201A7A4500EE88B0 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53193BD3201A7A4500EE88B0 /* Timer.cpp */; };
+		5361E2D4201FAF100095B481 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5361E2D2201FAF100095B481 /* VectorTest.cpp */; };
 		53A062A1201BB19E00D35DAE /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53A0629F201BB19E00D35DAE /* Array.cpp */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		530A3E3A2017C6D4004D799F /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		53193BD3201A7A4500EE88B0 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		53193BD4201A7A4500EE88B0 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		5361E2D2201FAF100095B481 /* VectorTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTest.cpp; sourceTree = "<group>"; };
+		5361E2D3201FAF100095B481 /* VectorTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorTest.hpp; sourceTree = "<group>"; };
 		53A0629F201BB19E00D35DAE /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
 		53A062A0201BB19E00D35DAE /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +72,7 @@
 				530A3E362017C587004D799F /* Controller */,
 				53193BD2201A7A1300EE88B0 /* Timer */,
 				53A0629E201BB16A00D35DAE /* Array */,
+				5361E2D1201FAEEC0095B481 /* Vector */,
 			);
 			path = "MyFirstC++";
 			sourceTree = "<group>";
@@ -90,6 +94,15 @@
 				53193BD4201A7A4500EE88B0 /* Timer.hpp */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		5361E2D1201FAEEC0095B481 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				5361E2D2201FAF100095B481 /* VectorTest.cpp */,
+				5361E2D3201FAF100095B481 /* VectorTest.hpp */,
+			);
+			path = Vector;
 			sourceTree = "<group>";
 		};
 		53A0629E201BB16A00D35DAE /* Array */ = {
@@ -162,6 +175,7 @@
 				53A062A1201BB19E00D35DAE /* Array.cpp in Sources */,
 				530A3E3B2017C6D4004D799F /* Controller.cpp in Sources */,
 				530A3E382017C5A7004D799F /* Runner.cpp in Sources */,
+				5361E2D4201FAF100095B481 /* VectorTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

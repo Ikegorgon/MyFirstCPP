@@ -9,10 +9,13 @@
 #include "Controller.hpp"
 #include "Timer.hpp"
 #include "Array.hpp"
+#include "VectorTest.hpp"
 
 int main() {
     Timer time;
     time.displayInformation();
+    VectorTest vector;
+    vector.~VectorTest();
     Array array;
     array.test();
     Controller app;
