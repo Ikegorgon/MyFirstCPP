@@ -11,12 +11,14 @@
 using namespace std;
 
 VectorTest :: VectorTest() {
-    while (!(cin >> size) || size < 0) {
+    cin >> size;
+    vector<int> vInt(size);
+    while (size < 0) {
         cout << "Bad input - try again: ";
         cin.clear();
         cin.ignore(INT_MAX, '\n');
     }
-    for (int i = 0; i <= size; i++) {
+    for (int i = 0; i < size; i++) {
         vInt[i] = i + 1;
     }
     for (auto i = vInt.begin(); i != vInt.end(); i++) {
